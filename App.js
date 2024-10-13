@@ -80,7 +80,7 @@ document.write("The total price of 2 mobiles is "+totalMobilePrice + "<br>");
 var totalAmount = 5000;
 var returnAmount = 2500;
 var ramaining = totalAmount - returnAmount;
-document.write("The ramaining amount is 2500 after subtracting 2500 return amount from total amount of 5000   "+totalMobilePrice + "<br>");
+document.write("The ramaining amount is 2500 after subtracting 2500 amount from total amount of 5000   "+totalMobilePrice + "<br>");
 // Multilication
 var tshirt = 200;
 var tshirtQuantity = 25;
@@ -97,7 +97,7 @@ var ramPrice = 3455;
 var laptopBattry = 6799;
 var totalSpend = ramPrice+laptopBattry;
 var mudulus = amountforproducts%totalSpend;
-document.write("The remainder of" + amountforproducts + "is" + mudulus + "in mudulus method" + "<br>");
+document.write("he remainder of" + amountforproducts + "is" + mudulus + "in mudulus method" + "<br>");
 
 
 
