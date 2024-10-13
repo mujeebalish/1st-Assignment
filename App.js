@@ -75,23 +75,29 @@ document.write("Variable name can contain only letters,numbers,dollar signs,and 
 var samsungS22 = 2000;
 var samsungS23 = 3000;
 var totalMobilePrice = samsungS22 + samsungS23;
-document.write("The total price of 2 mobiles is "+totalMobilePrice);
+document.write("The total price of 2 mobiles is "+totalMobilePrice + "<br>");
 // Subtraction.
 var totalAmount = 5000;
 var returnAmount = 2500;
 var ramaining = totalAmount - returnAmount;
-document.write("The ramaining amount is 2500 after subtracting 2500 return amount from total amount of 5000   "+totalMobilePrice);
+document.write("The ramaining amount is 2500 after subtracting 2500 return amount from total amount of 5000   "+totalMobilePrice + "<br>");
 // Multilication
 var tshirt = 200;
 var tshirtQuantity = 25;
 var totalTshirtAmount = tshirt*tshirtQuantity;
-console.log(" Tshirt 200. multipling with quantity amount is" + totalTshirtAmount);
+document.write(" Tshirt 200. multipling with quantity amount is" + totalTshirtAmount + "<br>");
 // Division
 var eide = 50000;
 var numberOfLabor = 25;
 var amountDivison = eide/numberOfLabor;
-console.log("Every labor riceived"+ amountDivison + "from 50000 Dividing in 25 number of labors" );
+document.write("Every labor riceived"+ amountDivison + "from 50000 Dividing in 25 number of labors" + "<br>" );
 // Modulus
+var amountforproducts = 15000;
+var ramPrice = 3455;
+var laptopBattry = 6799;
+var totalSpend = ramPrice+laptopBattry;
+var mudulus = amountforproducts%totalSpend;
+document.write("The remainder of" + amountforproducts + "is" + mudulus + "in mudulus method" + "<br>");
 
 
 
