@@ -92,14 +92,14 @@ var numberOfLabor = 25;
 var amountDivison = eide/numberOfLabor;
 document.write("Every labor riceived"+ amountDivison + "from 50000 Dividing in 25 number of labors" + "<br>" );
 // Modulus
-var amountforproducts = 15000;
-var ramPrice = 3455;
-var laptopBattry = 6799;
-var totalSpend = ramPrice+laptopBattry;
-var mudulus = amountforproducts%totalSpend;
-document.write("The remainder of" + amountforproducts + "is" + mudulus + "in mudulus method" + "<br>");
-
-
+var amountforpoorPersons = 15000;
+var poorPersons = 6;
+var mudulus = amountforpoorPersons%poorPersons;
+document.write("The remainder of" + " " + amountforpoorPersons + "is" + mudulus +"after dividing in to " + poorPersons + "Person" + "in mudulus method" + "<br>");
+var battry;
+document.write('"value after variable declaration is:"' + " " + battry + "<br>")
+battry = 100;
+document.write('"Initial value:' + " " + battry);
 
 
 
