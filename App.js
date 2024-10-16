@@ -52,21 +52,21 @@ document.write("<table border ='1px'>" + "<tr>" +
   "</tr>"
      +"</table>");*/
 
-    //  VARIABLES NAMES LEGAL & ILLEGAL
-    //  in one statement
-    /*var name = "Mujeeb Rehman";
-    fatherName = "Salahuddin";
-    institute = "SMIT";
-    // Legal names
-    var market_place;
-    var $currencyChance;
-    var price1;
-    var _School;*/
-    //  Illegal names
-    /*var 12345;
-    var alert;
-    var my  name;
-    var #price*/
+//  VARIABLES NAMES LEGAL & ILLEGAL
+//  in one statement
+/*var name = "Mujeeb Rehman";
+fatherName = "Salahuddin";
+institute = "SMIT";
+// Legal names
+var market_place;
+var $currencyChance;
+var price1;
+var _School;*/
+//  Illegal names
+/*var 12345;
+var alert;
+var my  name;
+var #price*/
 /*document.write("<h1>" + "Roles for naming js variables" + "</h1>")
 document.write("Variable name can contain only letters,numbers,dollar signs,and underscore." + "<br>" + "variable must begin with a " + "<u>" + "$" + "</u>" + "or" + "<u>" + "_" + "</u>" + "and letter. " + "for example $myname" +" "+"_Smit"+" "+"Saylani" + "<br>"+"variable names are cas sensitive"+" "+"variable name shouldn't be any JS keywords "); */
 
@@ -75,34 +75,66 @@ document.write("Variable name can contain only letters,numbers,dollar signs,and 
 var samsungS22 = 2000;
 var samsungS23 = 3000;
 var totalMobilePrice = samsungS22 + samsungS23;
-document.write("The total price of 2 mobiles is "+totalMobilePrice + "<br>");
+document.write("The total price of 2 mobiles is " + totalMobilePrice + "<br>");
 // Subtraction.
 var totalAmount = 5000;
 var returnAmount = 2500;
 var ramaining = totalAmount - returnAmount;
-document.write("The ramaining amount is 2500 after subtracting 2500 amount from total amount of 5000   "+totalMobilePrice + "<br>");
+document.write("The ramaining amount is 2500 after subtracting 2500 amount from total amount of 5000   " + totalMobilePrice + "<br>");
 // Multilication
 var tshirt = 200;
 var tshirtQuantity = 25;
-var totalTshirtAmount = tshirt*tshirtQuantity;
+var totalTshirtAmount = tshirt * tshirtQuantity;
 document.write(" Tshirt 200. multipling with quantity amount is" + totalTshirtAmount + "<br>");
 // Division
 var eide = 50000;
 var numberOfLabor = 25;
-var amountDivison = eide/numberOfLabor;
-document.write("Every labor riceived"+ amountDivison + "from 50000 Dividing in 25 number of labors" + "<br>" );
+var amountDivison = eide / numberOfLabor;
+document.write("Every labor riceived" + amountDivison + "from 50000 Dividing in 25 number of labors" + "<br>");
 // Modulus
 var amountforproducts = 15000;
 var ramPrice = 3455;
 var laptopBattry = 6799;
-var totalSpend = ramPrice+laptopBattry;
-var mudulus = amountforproducts%totalSpend;
+var totalSpend = ramPrice + laptopBattry;
+var mudulus = amountforproducts % totalSpend;
 document.write("The remainder of" + amountforproducts + "is" + mudulus + "in mudulus method" + "<br>");
+var juiceprice;
+document.write("Juice Price" + " " + juiceprice + "<br>");
+juiceprice = 50;
+document.write("the initial value " + "<br>");
+juiceprice++
+document.write("value after increment is " + " " + juiceprice + "<br>");
+juiceprice += 10;
+document.write("value after addition is" + " " + juiceprice + "<br>");
+--juiceprice
+document.write("value after decrement is" + " " + juiceprice + "<br>");
+var mudulusof9 = juiceprice % 9
+document.write("The remainder is" + " " + mudulusof9 + "<br>");
+var parkTicket = 1000;
+var totalTickets = 15;
+document.write("The total cost to buy" + " " + totalTickets + "visite park is" + " " + parkTicket + "<br>");
+var multiplyOf10 = 10;
+document.write("<h2>" + "Table of 10" + "</h2>" + "<br>" + multiplyOf10 + "*" + 1 + "=" + multiplyOf10 + "<br>" + multiplyOf10 + "*" + 2 + "=" + 20 + "<br>" + multiplyOf10 + "*" + 3 + "=" + 30 + "<br>" + multiplyOf10 + "*" + 4 + "=" + 40 + "<br>" + multiplyOf10 + "*" + 5 + "=" + 50 + "<br>" + multiplyOf10 + "*" + 6 + "=" + 60 + "<br>" + multiplyOf10 + "*" + 7 + "=" + 70 + "<br>" + multiplyOf10 + "*" + 8 + "=" + 80 + "<br>" + multiplyOf10 + "*" + 9 + "=" + 90 + "<br>" + multiplyOf10 + "*" + 10 + "=" + 100 + "<br>");
+var celsiusTemperature = 60;
+var convertToFahrenheit = (celsiusTemperature * 9) / 5 + 32;
+document.write("Convertion of Celcius to Fahrenheit" + "<br>" + 60 + "°C is " + convertToFahrenheit + " " + "Fahrenheit" + "<br>");
+var fahrenheitTemperature = 50;
+var convertToCelcius = (fahrenheitTemperature - 32) * 5 / 9;
+document.write("Convertion of Fahrenheit to Celcius" + "<br>" + 50 + "°F is " + convertToCelcius + " " + "Celcius" + "<br>");
+var bookPrice = 200;
+var copyPrice = 300;
+var baigPrice = 1000;
+var penPrice = 120;
+var bookQuantity = 10;
+var copyQuantity = 10;
+var baigQuantity = 10;
+var penQuantity = 20;
+var deliveryCharch = 300;
+document.write("price of Book is" + " " + bookPrice + "<br>" + "Order Quantity of books are" + " " + bookQuantity + "<br>" + "price of Copy is " + " " + copyPrice + "<br>" + "Order Quantity of Copies are" + " " + copyPrice + "<br>" + "price of baig is" + " " + baigPrice + "<br>" + "Order Quantity of Baigs are" + " " + baigQuantity + "<br>" + "price of pen is" + " " + penPrice + "<br>" + "Order Quantity of pens are" + " " + penQuantity + "<br>" + "SHIPPING CHARGES" + " " + deliveryCharch + "<br>");
+var perchasingtotal = 2000+3000+10000+2400+300;
+document.write(perchasingtotal)
 
-
-
-
-
+ 
 
 
 
