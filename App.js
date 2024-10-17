@@ -98,6 +98,8 @@ var laptopBattry = 6799;
 var totalSpend = ramPrice + laptopBattry;
 var mudulus = amountforproducts % totalSpend;
 document.write("The remainder of" + amountforproducts + "is" + mudulus + "in mudulus method" + "<br>");
+
+// Increment and Decrement
 var juiceprice;
 document.write("Juice Price" + " " + juiceprice + "<br>");
 juiceprice = 50;
@@ -110,17 +112,26 @@ document.write("value after addition is" + " " + juiceprice + "<br>");
 document.write("value after decrement is" + " " + juiceprice + "<br>");
 var mudulusof9 = juiceprice % 9
 document.write("The remainder is" + " " + mudulusof9 + "<br>");
+
+// Algebra Calculation
 var parkTicket = 1000;
 var totalTickets = 15;
 document.write("The total cost to buy" + " " + totalTickets + "visite park is" + " " + parkTicket + "<br>");
+// Tabel
 var multiplyOf10 = 10;
 document.write("<h2>" + "Table of 10" + "</h2>" + "<br>" + multiplyOf10 + "*" + 1 + "=" + multiplyOf10 + "<br>" + multiplyOf10 + "*" + 2 + "=" + 20 + "<br>" + multiplyOf10 + "*" + 3 + "=" + 30 + "<br>" + multiplyOf10 + "*" + 4 + "=" + 40 + "<br>" + multiplyOf10 + "*" + 5 + "=" + 50 + "<br>" + multiplyOf10 + "*" + 6 + "=" + 60 + "<br>" + multiplyOf10 + "*" + 7 + "=" + 70 + "<br>" + multiplyOf10 + "*" + 8 + "=" + 80 + "<br>" + multiplyOf10 + "*" + 9 + "=" + 90 + "<br>" + multiplyOf10 + "*" + 10 + "=" + 100 + "<br>");
+
+// The Temperature Converter
+document.write("<h2>"+"The Temperature Converter"+"</h2>");
 var celsiusTemperature = 60;
 var convertToFahrenheit = (celsiusTemperature * 9) / 5 + 32;
 document.write("Convertion of Celcius to Fahrenheit" + "<br>" + 60 + "°C is " + convertToFahrenheit + " " + "Fahrenheit" + "<br>");
 var fahrenheitTemperature = 50;
 var convertToCelcius = (fahrenheitTemperature - 32) * 5 / 9;
 document.write("Convertion of Fahrenheit to Celcius" + "<br>" + 50 + "°F is " + convertToCelcius + " " + "Celcius" + "<br>");
+
+// Shopping Cart
+document.write("<h1>"+"Shopping Cart"+"</h1>");
 var bookPrice = 200;
 var copyPrice = 300;
 var baigPrice = 1000;
@@ -130,11 +141,47 @@ var copyQuantity = 10;
 var baigQuantity = 10;
 var penQuantity = 20;
 var deliveryCharch = 300;
-document.write("price of Book is" + " " + bookPrice + "<br>" + "Order Quantity of books are" + " " + bookQuantity + "<br>" + "price of Copy is " + " " + copyPrice + "<br>" + "Order Quantity of Copies are" + " " + copyPrice + "<br>" + "price of baig is" + " " + baigPrice + "<br>" + "Order Quantity of Baigs are" + " " + baigQuantity + "<br>" + "price of pen is" + " " + penPrice + "<br>" + "Order Quantity of pens are" + " " + penQuantity + "<br>" + "SHIPPING CHARGES" + " " + deliveryCharch + "<br>");
+document.write("price of Book is"+ " " + " " + bookPrice + "<br>" + "Order Quantity of book is" + " " + bookQuantity + "<br>" + "price of Copy is " + " " + copyPrice + "<br>" + "Order Quantity of Copies are" + " " + copyPrice + "<br>" + "price of baig is" + " " + baigPrice + "<br>" + "Order Quantity of Baig is" + " " + baigQuantity + "<br>" + "price of pen is" + " " + penPrice + "<br>" + "Order Quantity of pen is" + " " + penQuantity + "<br>" + "SHIPPING CHARGES" + " " + deliveryCharch + "<br>");
 var perchasingtotal = 2000+3000+10000+2400+300;
-document.write(perchasingtotal)
+document.write("Total cost of your order is"+" "+perchasingtotal);
 
- 
+// Mark Sheet
+/*document.write("<h1>"+"Mark Sheet"+"</h1>");
+var studentInput1 = +prompt("Enter the total marks:");
+var studentInput2 = +prompt("Enter your marks obtained:");
+var totalMarks = studentInput1;
+var obtaindlMarks = studentInput2;
+var marksResult = (obtaindlMarks/totalMarks)*100;
+document.write("Total Marks:" +" " + totalMarks + "<br>");
+document.write("Marks obtaind:" +" " + obtaindlMarks + "<br>");
+document.write("Percentage:" +" " + marksResult + "%" + "<br>");*/
+
+// Currency Exchange
+/*document.write("<h1>"+"Currency Exchange in PKR"+"</h1>");
+ var usDollar = +prompt("Amount" + "\n" + "$ USD");
+ var saudiRyal = +prompt("Amount" + "\n" + "SAR ﷼");
+ var usdToPkr = 277;
+ var sarTopkr = 74; 
+ var convertUsdtoPkr = usDollar*usdToPkr;
+ var converSartoPkr = saudiRyal*sarTopkr;
+ var totalAmountToPKR = convertUsdtoPkr + converSartoPkr;
+ document.write("<h3>"+"Total currency in PKR:" + " " + totalAmountToPKR +"</h3>");*/
+//  Arithmetic Operations in a single expression
+var bikePrice = 250500;
+ var arithmeticResult =  (bikePrice += 100000)*10/2;
+ document.write("<h4>"+" Result of Arithmetic Operations in a single expression:" + " " + arithmeticResult +"</43>");
+
+
+//  The Age Calculator
+document.write("<h1>"+"Age Calculator"+"</h1>");
+var currentyear = +prompt("Enter current year:");
+var userBirthyear2 = +prompt("Enter your birth year:");
+var yearCalcolatresult = currentyear-userBirthyear2;
+document.write("<h4>"+"Current Year:"  + " " + currentyear + "<br>" + "Birth Year:" + " " + userBirthyear2 + "<br>" + "Your Age:" + yearCalcolatresult +  "</4>");
+
+
+
+
 
 
 
