@@ -192,11 +192,13 @@ var estimatedAmount = userInpEstimatAmount;
 var yearDays = 360;
 var itemAmoutPerYear = estimatedAmount*yearDays;
 var multiPYEstimatAge = itemAmoutPerYear*userMaxAge3;
-document.write("<h3>"+"favourite item:" + " " + itemName +"</h3>");
-document.write("<h3>"+ "current Age:" + " " + userCurrentAge1 +"</h3>");
-document.write("<h3>"+ "Estimated Miximum age:" + " " + userMaxAge3 +"</h3>");
-document.write("<h3>"+ "Amount of favorite snaks per day:" + " " + estimatedAmount +"</h3>");
-document.write("<h3>"+ "You will need"+ multiPYEstimatAge+itemName + "to last you until the ripe old age of" + " " + userMaxAge3 +"</h3>");
+var multiEstimatAmoutDayYear = estimatedAmount*yearDays;
+var multAmoutYAge = multiEstimatAmoutDayYear*userCurrentAge1
+document.write("<h3>" + "favourite item:" + " " + itemName +"</h3>");
+document.write("<h3>" + "current Age:" + " " + userCurrentAge1 +"</h3>");
+document.write("<h3>" + "Estimated Miximum age:" + " " + userMaxAge3 +"</h3>");
+document.write("<h3>" + "Amount of favorite snaks per day:" + " " + estimatedAmount +"</h3>");
+document.write("<h3>" + "You will need"+ ' ' + multiPYEstimatAge+ " " + itemName + " " + "to last you until the ripe old age of" + " " + userMaxAge3 + "<br>" + "You will need" +" " + multAmoutYAge +" " + "amount to spent to last you until the ripe old age of" + " " + userMaxAge3 +"</h3>");
 
 
 
